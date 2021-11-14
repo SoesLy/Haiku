@@ -16,7 +16,7 @@ public class Menu {
 
     public void rules() {
 
-        System.out.println("Do you want the rules for Haiku poems? ");
+        System.out.println("Do you want the rules for Haiku poems?\n'yes'/'no' ");
         String HaikuRules = scanner.nextLine();
         if (HaikuRules.equalsIgnoreCase("yes")) {
             System.out.println("A Haiku poem consist only of 3 lines!\nFirst line consist of 5 words!\nSecond line consist of 7 words!\nThird line consist of 5 words");
